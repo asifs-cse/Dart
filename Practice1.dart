@@ -1,3 +1,3 @@
 void main() {
-  //print("Hello dart world");
+  print("Hello dart world");
 }
