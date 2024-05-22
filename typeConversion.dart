@@ -6,7 +6,13 @@ void main() {
   print(one);*/
 
   //integer to string
-  var one = 1.toString();
+  /* var one = 1.toString();
   one += "Asif";
   print(one);
+*/
+
+  var one = 3.1234.toString();
+  var oneD = 3.1234.toStringAsFixed(2);
+  assert(oneD == '3.12');
+  print(oneD);
 }
